@@ -47,4 +47,4 @@ Bu proje, mobil cihazlar ve IoT cihazları için güvenlik analizi ve tehdit tes
 
 ## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. 
+Bu proje MIT lisansı altında lisanslanmıştır.
