@@ -1,0 +1,11 @@
+=== Mobile Security Dataset – Hazırlık Raporu ===
+Tarih: 2025-05-30 20:55:40
+Ham boyut: 10000 satır × 7 sütun
+
+>>> Temizleme Adımları:
+- Tüm NaN hücreler 'Unknown' ile dolduruldu (şu an eksik değer yok)
+- Az örnekli 15 sınıf çıkarıldı, 1270 satır silindi
+
+Temiz boyut: 8730 satır × 7 sütun
+
+Temiz veri kaydedildi → Mobile_Security_Dataset_1.csv

@@ -1,0 +1,45 @@
+Mobile Security Dataset veri analizi ve makine öğrenme yöntemleri ile analizi
+
+
+Mobile Security Dataset: Mobil uygulama güvenliği bilgileri, metaveri ve güvenlik bilgileri içeriyor.
+
+IOT_Malware: IoT cihazlara yönelik zararlı yazılım dosyaları.
+
+Android Malware Datasets: Android kötü amaçlı yazılımları tespit etmeye yönelik etiketlenmiş APK analizleri.
+
+IoT Intrusion Detection: IoT ağ trafiği saldırılarını analiz eden veri seti.
+
+Android Malware Detection: Android uygulamalarının davranış ve güvenlik skorları.
+
+
+
+
+
+Eğitim Yapılan Veri Seti	     Mobile Security Dataset ile İlişkisi	          Kullanım Yolu
+IoT Intrusion Detection         Güvenlik açığı ve saldırı tipi analizi örneği	  Tehdit kategorilerini yorumlarken referans
+Android Malware Datasets     	Android uygulama analizine örnek	              Güvenlik seviyesi puanlamasında destek
+PetaDroid	                    Derin öğrenme ile malware tespiti	              Örnek yöntem karşılaştırması
+IoT_Malware                   	IoT saldırı  kategorileri	                      Saldırı türü referansı
+Android Malware Detection       Android güvenlik davranış skoru analizi           Modelleme tekniği benzetmesi
+Mobile Security Dataset      	Asıl proje verisi	                              Projenin temeli
+
+
+
+
+derin öğrenmede uygulanabılır 
+MPNet / BERT / RoBERTa + Classifier Head
+
+.\venv\Scripts\Activate.ps1  
+uvicorn api:app --reload --port 8000
+
+
+
+
+
+
+
+
+
+
+
+

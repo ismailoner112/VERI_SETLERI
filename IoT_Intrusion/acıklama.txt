@@ -1,0 +1,149 @@
+Veri seti aşağıda belirtilen araştırmacılar tarafından tanıtılmıştır:
+ECP Neto, S. Dadkhah, R. Ferreira, A. Zohourian, R. Lu, AA Ghorbani. 
+"CICIoT2023: IoT ortamında büyük ölçekli saldırılar için gerçek zamanlı
+ bir veri seti ve kıyaslama," Sensor (2023) – (Journal of Sensors'a sunulmuştur).
+Mevcut veriler farklı türde IoT saldırıları içermektedir. Verilerde listelenen 
+IoT saldırılarının kategorileri şu şekildedir:
+DDoS
+Brute Force
+Spoofing
+DoS
+Recon
+Web tabanlı
+Mirai
+
+IoT'deki her tür saldırı türü için verilerde çeşitli alt 
+kategoriler mevcuttur. Veri seti, saldırılar için 1191264 
+ağ örneği ve her saldırının 47 özelliğini içerir. Veri seti,
+ farklı türdeki saldırı saldırılarının tespit edilebileceği 
+ tahmini modeli hazırlamak için kullanılabilir. Veriler ayrıca IDS sistemini tasarlamak için de uygundur.
+Veri seti aşağıda belirtilen özellikleri içermektedir.
+flow_duration
+Başlık_Uzunluğu
+Protokol
+Türü
+Süre Oran
+Srate
+Drate
+fin_flag_number
+syn_flag_number
+rst_flag_number
+psh_flag_number
+ack_flag_number
+ece_flag_number
+cwr_flag_number
+ack_count
+syn_count
+fin_count
+urg_count
+rst_count
+HTTP
+HTTPS
+DNS
+Telnet
+SMTP
+SSH
+IRC
+TCP
+UDP
+DHCP
+ARP
+ICMP
+IPv
+LLC
+Toplam
+Toplam
+Min
+Maks
+AVG
+Std
+Toplam Boyut
+IAT Numarası
+Büyüklük
+Yarıçap
+Kovaryans
+Varyans
+Ağırlık
+label
+'Etiket' özellikleri veri sınıflarını içerir ve dağılımlar aşağıda gösterilmiştir:
+DDoS-ICMP_Flood => 183192
+DDoS-UDP_Flood => 137796
+DDoS-TCP_Flood => 115213
+DDoS-PSHACK_Flood => 104585
+DDoS-SYN_Flood => 104060
+DDoS-RSTFINFlood => 103137
+DDoS-Eş AnlamlıIP_Flood => 91606
+DoS-UDP_Flood => 85137
+DoS-TCP_Flood => 68070
+DoS-SYN_Flood => 51402
+BenignTraffic => 27870
+Mirai-greeth_flood => 25094
+Mirai-udpplain => 22901
+Mirai-greip_flood => 19198
+DDoS-ICMP_Parçalanma => 11611
+MITM-ArpSpoofing => 7891
+DDoS-ACK_Parçalanma => 7334
+DDoS-UDP_Parçalanma => 7330
+DNS_Spoofing => 4608
+Recon-HostDiscovery => 3448
+Recon-OSScan => 2519
+Recon-PortScan => 2128
+DoS-HTTP_Flood => 1893
+VulnerabilityScan => 929
+DDoS-HTTP_Flood => 728
+DDoS-SlowLoris => 560
+DictionaryBruteForce => 362
+BrowserHijacking => 159
+SqlInjection => 132
+CommandInjection => 122
+Backdoor_Malware => 89
+XSS => 86
+Recon-PingSweep => 46
+Uploading_Attack => 28
+
+Saldırı etiketlerinin kategorizasyonu aşağıda gösterilmiştir:
+DDoS
+ACK parçalanması
+UDP taşkını
+SlowLoris
+ICMP taşkını
+RSTFIN taşkını
+PSHACK taşkını
+HTTP taşkını
+UDP parçalanması
+TCP taşkını
+SYN taşkını
+SynonymousIP taşkını
+
+Kaba Kuvvet
+Sözlüğü kaba kuvvet
+
+Sahtecilik
+Arp sahteciliği
+DNS sahteciliği
+
+DoS
+TCP taşkını
+HTTP taşkını
+SYN taşkını
+UDP taşkını
+
+Recon
+Ping taraması
+İşletim sistemi taraması
+Güvenlik açığı taraması
+Bağlantı noktası taraması
+Ana bilgisayar keşfi
+
+Web tabanlı
+Sql enjeksiyonu
+Komut enjeksiyonu
+Arka kapı kötü amaçlı yazılımı
+Yükleme saldırısı
+XSS
+​​Tarayıcı ele geçirme
+
+Mirai
+GREIP sel
+Greeth sel
+UDPPlain

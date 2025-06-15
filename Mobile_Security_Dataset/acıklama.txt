@@ -1,0 +1,39 @@
+Bu veri seti, Finans, Sağlık, Sosyal, Üretkenlik ve Seyahat dahil olmak üzere çeşitli
+ kategorilerde bir uygulamayı (app) temsil eden 10000 girdiden oluşur.
+ Aşağıdaki gibi ayrıntılı olarak açıklanan sekiz sütuna yapılandırılmıştır:
+
+App_ID: Her uygulama için 1 ile 10000 arasında değişen benzersiz bir tanımlayıcı.
+Category: Uygulamanın ait olduğu sektör veya endüstri.
+Security_Practice_Used: Uygulamada uygulanan güvenlik önlemleri ve uygulamaları.
+Vulnerability_Types: Uygulama içinde tanımlanan güvenlik açığı türleri.
+Mitigation_Strategies: Güvenlik açıklarını azaltmak veya gidermek için kullanılan stratejiler ve yöntemler.
+Developer_Challenges: Geliştiricilerin güvenlik önlemlerini uygularken karşılaştıkları zorluklar.
+Assessment_Tools_Used: Uygulamanın güvenliğini değerlendirmek veya test etmek için kullanılan araçlar.
+Improvement_Suggestions: Uygulamanın güvenlik duruşunu iyileştirmeye yönelik öneriler.
+Veri seti, uygulama geliştirmedeki güvenlik uygulamaları, zorlukları ve iyileştirmeler
+ hakkında kapsamlı bir genel bakış sunarak farklı uygulama kategorilerinde siber güvenliğin önemini vurgular. 
+ Uygulama geliştirmedeki güvenlik ortamını anlamak, yaygın güvenlik açıklarını, etkili azaltma stratejilerini,
+  geliştirici zorluklarını ve güvenlik değerlendirmesi için kullanılan araçları vurgulamak için değerli bir 
+  kaynak görevi görür.
+
+
+
+
+
+
+ LightGBM (Light Gradient Boosting Machine)-----(Gradient boosting tabanlı bir karar ağacı algoritması.)
+
+
+
+
+
+sıradakı denenebilecek modeller (daha yüksek doğruluk değeri verebilir.)
+XGBoost
+
+CatBoost
+
+SVM (destek vektör makineleri)
+
+Logistic Regression (yüksek hız, düşük karmaşıklık için)
+
+Neural Network / Transformer + Classifier (daha ağır modeller için)

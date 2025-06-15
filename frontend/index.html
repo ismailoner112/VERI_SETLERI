@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Güvenlik Analiz Sistemi</title>
+  <link rel="stylesheet" href="/frontend_assets/style.css">
+  <script src="/frontend_assets/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Güvenlik Analiz Sistemi</h1>
+      <p class="subtitle">Metin ve Görsel Analiz Platformu</p>
+    </header>
+
+    <div class="dataset-section">
+      <label for="datasetSelect">Analiz Edilecek Veri Seti:</label>
+      <select id="datasetSelect" class="form-control">
+        <option value="">Veri seti seçiniz...</option>
+        <!-- Veri setleri JavaScript ile yüklenecek -->
+      </select>
+    </div>
+
+    <div class="analysis-sections">
+      <section class="text-analysis">
+        <h2>📝 Metin Analizi</h2>
+        <div class="input-group">
+          <textarea id="textInput" placeholder="Analiz edilecek metni buraya yazın..." class="form-control"></textarea>
+          <button onclick="predictText()" class="btn-primary">Metni Analiz Et</button>
+        </div>
+        <div id="textResult" class="result-box"></div>
+      </section>
+
+      <section class="image-analysis">
+        <h2>🖼️ Görsel Analizi</h2>
+        <div class="input-group">
+          <input type="file" id="imageInput" accept="image/*" class="form-control">
+          <button onclick="predictImage()" class="btn-primary">Görseli Analiz Et</button>
+        </div>
+        <div id="imageResult" class="result-box"></div>
+      </section>
+    </div>
+
+    <footer>
+      <p>Güvenlik Analiz Sistemi &copy; 2025</p>
+    </footer>
+  </div>
+</body>
+</html>

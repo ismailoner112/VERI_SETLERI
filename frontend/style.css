@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e0f7fa; /* Açık mavi arka plan */
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Add some padding at the top */
+}
+
+.container {
+    max-width: 1000px; /* Konteyner genişliği azaltıldı */
+    margin: 0 auto;
+    padding: 0 1rem 2rem 1rem; /* Adjusted padding */
+    flex: 1;
+    background-color: #ffffff; /* White background for the main content area */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem; /* Başlık alt boşluğu azaltıldı */
+    padding: 2rem 0 1.5rem 0; /* Adjusted padding */
+    border-bottom: 2px solid #b2ebf2; /* Alt çizgi eklendi */
+    background-color: #f1f8e9; /* Light green background for header */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    color: #004d40; /* Koyu yeşil başlık */
+    font-size: 2.8rem; /* Başlık boyutu artırıldı */
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #00796b; /* Yeşil alt başlık */
+    font-size: 1.3rem;
+    font-style: italic; /* Alt başlık italik yapıldı */
+}
+
+.description {
+    background-color: #e8f5e9; /* Very light green background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Lighter shadow */
+    margin: 1rem 1rem 2rem 1rem; /* Adjusted margins */
+    line-height: 1.8;
+    color: #333; /* Darker text */
+    text-align: justify;
+    border-left: 5px solid #33691e; /* Dark green left border */
+}
+
+.description h2 {
+    color: #004d40;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 1px dashed #a5d6a7; /* Lighter dashed line */
+    padding-bottom: 0.5rem;
+}
+
+.dataset-section {
+    background: #ffffff; /* White background */
+    padding: 1.5rem; /* Adjusted padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* Slightly lighter shadow */
+    margin: 0 1rem 2rem 1rem; /* Adjusted margins */
+    border: 1px solid #b2ebf2; /* Light border */
+}
+
+.analysis-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 2rem;
+    margin: 0 1rem; /* Add horizontal margin */
+}
+
+section {
+    background: #ffffff; /* White background */
+    padding: 1.5rem; /* Adjusted padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* Slightly lighter shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #b2ebf2; /* Light border */
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* More pronounced hover shadow */
+}
+
+section h2 {
+     color: #00796b; /* Green section title */
+     margin-top: 0;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    padding: 0.8rem;
+    border: 1px solid #b2ebf2; /* Light blue border */
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #00796b; /* Green focus color */
+    box-shadow: 0 0 8px rgba(0,121,107,0.4); /* Green focus shadow */
+}
+
+textarea.form-control {
+    min-height: 120px; /* Metin alanı yüksekliği azaltıldı */
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #00796b; /* Green button */
+    color: white;
+    padding: 0.9rem 2rem; /* Buton padding artırıldı */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem; /* Buton yazı boyutu artırıldı */
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-primary:hover {
+    background-color: #004d40; /* Dark green hover color */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.result-box {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #e0f2f7; /* Light blue background */
+    border-radius: 4px;
+    border-left: 4px solid #00796b; /* Green left border */
+    min-height: 80px; /* Sonuç kutusu minimum yüksekliği */
+    word-break: break-word; /* Uzun kelimeleri kırmak için */
+    white-space: pre-wrap; /* Maintain whitespace and break lines */
+}
+
+.result-box strong {
+    color: #004d40; /* Dark green result title color */
+}
+
+.error {
+    background-color: #ffebee; /* Light red */
+    color: #c62828; /* Dark red */
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #c62828;
+    margin: 1rem;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.loading {
+    color: #00796b; /* Green loading color */
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.loading::after {
+    content: "...";
+    animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: "."; }
+    40% { content: ".."; }
+    60%, 100% { content: "..."; }
+}
+
+.success {
+    background-color: #e8f5e9; /* Light green */
+    color: #388e3c; /* Dark green */
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #388e3c;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.info {
+    background-color: #e1f5fe; /* Very light blue */
+    color: #0277bd; /* Blue */
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #0277bd;
+    margin: 1rem;
+    animation: slideIn 0.3s ease-out;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #004d40; /* Dark green background */
+    color: white; /* White text color */
+    margin-top: 3rem;
+    border-top: 2px solid #b2ebf2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .analysis-sections {
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        padding: 0.5rem;
+    }
+
+    .description, .dataset-section, .analysis-sections > section, .error, .info {
+        margin: 1rem 0.5rem; /* Adjust margins for smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    section {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}

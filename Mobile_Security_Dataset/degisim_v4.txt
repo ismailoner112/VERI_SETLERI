@@ -1,0 +1,22 @@
+Log oluşturma: 2025-05-30 23:00:42.884550
+Category
+Education            1082
+Travel               1034
+Health & Fitness      916
+Finance               889
+Lifestyle             827
+Productivity          686
+Food & Drink          571
+Environment           452
+Health & Wellness     292
+Development Tools     284
+Entertainment         272
+Events                264
+Business              206
+Home & Garden         197
+Books & Reference     189
+Social Networking     187
+Social                176
+Sports                105
+Medical               101
+

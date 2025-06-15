@@ -1,0 +1,22 @@
+{
+  "Mobile_Security_Dataset": {
+    "file": "Mobile_Security_Dataset.pkl",
+    "types": ["text"]
+  },
+  "IOT_Malware_dataset": {
+    "file": "IOT_Malware_dataset.pkl",
+    "types": ["image"]
+  },
+  "IoT_Intrusion": {
+    "file": "IoT_Intrusion.pkl",
+    "types": ["text"]
+  },
+  "androıdmalware": {
+    "file": "androıdmalware.pkl",
+    "types": []
+  },
+  "Android_Malware": {
+    "file": "Android_Malware.pkl",
+    "types": []
+  }
+}

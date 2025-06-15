@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.zip
+*.rar
+*.7z
+
+# Model files
+*.h5
+*.pkl
+*.model
+*.joblib
+
+# Environment variables
+.env
+.env.local 
