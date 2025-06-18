@@ -45,6 +45,4 @@ Bu proje, mobil cihazlar ve IoT cihazları için güvenlik analizi ve tehdit tes
 - Gerçek zamanlı tehdit analizi
 - Web tabanlı kullanıcı arayüzü
 
-## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır.
